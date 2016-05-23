@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.developer</groupId>
 	<artifactId>pathfinder</artifactId>
-	<version>1.0.5-SNAPSHOT</version>
+	<version>1.0.5</version>
 
 	
 	
@@ -12,6 +12,7 @@
 		<connection>scm:git:git://github.com/prasadppawar/hello-world.git</connection>
 		<developerConnection>scm:git:git@github.com:prasadppawar/hello-world.git</developerConnection>
 		
+    <tag>pathfinder-1.0.5</tag>
   </scm>
 
 	
