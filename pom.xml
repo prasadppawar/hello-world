@@ -8,7 +8,7 @@
 	
 	
 	 <scm>
-        <connection>scm:git:git://github.com/prasadppawar/hello-world</connection>        
+        <connection>https://github.com/prasadppawar/hello-world.git</connection>        
         <url>https://github.com/prasadppawar/hello-world</url>
       
   </scm>
