@@ -6,6 +6,8 @@
 	<version>1.0.0-SNAPSHOT</version>
 
 	
+	
+	
 	 <scm>
         <connection>scm:git:git://github.com/prasadppawar/hello-world</connection>        
         <url>https://github.com/prasadppawar/hello-world</url>
