@@ -8,8 +8,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import com.developer.model.FlightDeparture;
 
-@ContextConfiguration("classpath:spring.xml")
-@RunWith(SpringJUnit4ClassRunner.class)
+
 public class BagPathFinderTest {
 
 	@Autowired
