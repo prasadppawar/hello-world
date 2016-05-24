@@ -1,9 +1,6 @@
 package com.developer.model;
 
-/**
- * Edge links two Nodes in a Graph. Every Edge has an associated weight.
- *
- */
+
 public class Edge {
 
 	private final String id;
