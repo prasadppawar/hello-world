@@ -6,7 +6,7 @@ import java.util.List;
 
 import org.junit.Test;
 
-import com.developer.business.engine.DijkstraAlgorithm;
+
 import com.developer.model.Edge;
 import com.developer.model.Graph;
 import com.developer.model.Node;
@@ -62,37 +62,14 @@ public class DijkstraAlgorithmTest {
 		addLane("Edge_20", 6, 7, 1);
 
 		Graph graph = new Graph(nodes, edges);
-		DijkstraAlgorithm dijkstra = new DijkstraAlgorithm(graph);
+	
 
-		LinkedList<Node> path = printPath(dijkstra, nodes.get(8) , nodes.get(5));
-		getDistanceFromPath(dijkstra, path);
 
 	}
 
-	private LinkedList<Node> printPath(DijkstraAlgorithm dijkstra, Node source, Node target) {
 
-		dijkstra.setup(source);
-		LinkedList<Node> path = dijkstra.getPath(target);
 
-		System.out.println("Path " + path);
-		return path;
 
-	}
-
-	private int getDistanceFromPath(DijkstraAlgorithm dijkstra, LinkedList<Node> path) {
-
-		int dist = 0;
-
-		if (path != null && !path.isEmpty()) {
-			for (int i = 0; i < path.size() - 1; i++) {
-				dist = dist + dijkstra.getDistance(path.get(i), path.get(i + 1));
-			}
-		}
-
-		System.out.println("Distance" + dist);
-		return dist;
-
-	}
 
 	private void addLane(String laneId, int sourceLocNo, int destLocNo, int duration) {
 		Edge lane = new Edge(laneId, nodes.get(sourceLocNo), nodes.get(destLocNo), duration);
