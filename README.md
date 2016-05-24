@@ -2,5 +2,8 @@
 
 This Git repository contains all code for The Hello GitFlow app
 
-Edits are made in the new branch
+Detailed documentation at:
+https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
+
+
 
