@@ -13,7 +13,7 @@
 	</appender>
 
 	<appender name="FILE" class="org.apache.log4j.FileAppender">
-		<param name="file" value="/tmp/projects/PathFinder/PathfinderApp.log" />
+		<param name="file" value="/tmp/projects/PathFinder/PathfinderApp2.log" />
 		<param name="immediateFlush" value="true" />
 		<param name="append" value="true" />
 		<layout class="org.apache.log4j.PatternLayout">
