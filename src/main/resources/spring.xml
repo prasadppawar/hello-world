@@ -11,6 +11,9 @@
 
 	<bean id="bootstrap" class="com.developer.business.Bootstrap" />
 
+	
+	
+	
 	<bean id="conveyorSystem" class="com.developer.business.ConveyorSystem" />
 
 	<bean id="algorithm" class="com.developer.business.ShortestRouteImpl" />
